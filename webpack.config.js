@@ -38,6 +38,7 @@ const config = {
       }
     }),
     new VueLoaderPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
     // Add your plugins here
     // Learn more about plugins from https://webpack.js.org/configuration/plugins/
   ],
